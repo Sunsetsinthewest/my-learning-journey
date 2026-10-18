@@ -23,10 +23,12 @@
 .
 ├── README.md
 ├── .gitignore
-├── cpp/                          所有 C++ 代码
-│   └── hello.cpp                 第一个程序
-└── notes/                        所有学习笔记
-    └── W01-环境与命令行.md
+├── cpp/                         所有 C++ 代码
+│    ├── test/
+│    └── test.cpp                一个测试cin的程序    
+│    └── hello.cpp               第一个程序 
+└── notes/                       
+    └── W01-环境与命令行.md       所有学习笔记
 ```
 
 - **`cpp/`** —— 存放所有可编译运行的代码，按周建子目录，例如 `cpp/w03/temperature.cpp`
