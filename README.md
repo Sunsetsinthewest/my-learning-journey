@@ -25,6 +25,8 @@
 ├── .gitignore
 ├── cpp/                         所有 C++ 代码
 │    ├── test/
+│    ├── temperature.cpp         转化摄氏度为华氏度的程序
+│    ├── bmi.cpp                 计算bmi的程序
 │    └── test.cpp                一个测试cin的程序    
 │    └── hello.cpp               第一个程序 
 └── notes/                       
