@@ -5,9 +5,9 @@ int main()
     const double SCALE=1.8;
     const double OFFSET=32.0;
     double celsius;
-    std::cout<<"ÇëÊäÈëÉãÊÏ¶È";
+    std::cout<<"è¯·è¾“å…¥æ‘„æ°åº¦";
     std::cin>> celsius;
     double fahrenheit =celsius*SCALE+OFFSET;
-    std::printf("%.lfÉãÊÏ¶È=%.lf»ªÊÏ¶È",celsius,fahrenheit);
+    std::printf("%.lfæ‘„æ°åº¦=%.lfåæ°åº¦",celsius,fahrenheit);
     return 0;
 } 
