@@ -1,8 +1,27 @@
-# 编译产物：不进仓库
+# ---- 编译产物 ----
 *.exe
 *.o
 *.out
+*.obj
+*.dll
+*.a
+*.lib
+*.gch
+*.pdb
+*.ilk
+*.idb
 
-# 编辑器与系统文件
+# ---- 构建目录 ----
+build/
+Debug/
+Release/
+CMakeCache.txt
+CMakeFiles/
+
+# ---- 编辑器 ----
 .vscode/
+.idea/
+
+# ---- 系统文件 ----
 .DS_Store
+Thumbs.db
